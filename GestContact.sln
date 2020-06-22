@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestContact", "GestContact\GestContact.csproj", "{79694474-D085-43CC-8480-CE6E968F03EE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GestContact.DB", "GestContact.DB\GestContact.DB.sqlproj", "{15D86AF2-9E83-4D1E-B39D-72E2138D4F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestContact.ToolBox", "GestContact.ToolBox\GestContact.ToolBox.csproj", "{BF49BD14-430E-426E-AACC-37735944B8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestContact.Repositories", "GestContact.Repositories\GestContact.Repositories.csproj", "{FF778040-E8BF-4A4A-A413-F9CC503A7DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestContact.Models.Global", "GestContact.Models.Global\GestContact.Models.Global.csproj", "{0F5B0AB0-0038-4438-8A96-CB5E6742B8DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestContact.Models.Client", "GestContact.Models.Client\GestContact.Models.Client.csproj", "{F4EBE103-1270-41A5-9836-ADFB96052F10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79694474-D085-43CC-8480-CE6E968F03EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79694474-D085-43CC-8480-CE6E968F03EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79694474-D085-43CC-8480-CE6E968F03EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79694474-D085-43CC-8480-CE6E968F03EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D86AF2-9E83-4D1E-B39D-72E2138D4F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D86AF2-9E83-4D1E-B39D-72E2138D4F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D86AF2-9E83-4D1E-B39D-72E2138D4F83}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{15D86AF2-9E83-4D1E-B39D-72E2138D4F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D86AF2-9E83-4D1E-B39D-72E2138D4F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D86AF2-9E83-4D1E-B39D-72E2138D4F83}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BF49BD14-430E-426E-AACC-37735944B8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF49BD14-430E-426E-AACC-37735944B8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF49BD14-430E-426E-AACC-37735944B8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF49BD14-430E-426E-AACC-37735944B8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF778040-E8BF-4A4A-A413-F9CC503A7DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF778040-E8BF-4A4A-A413-F9CC503A7DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF778040-E8BF-4A4A-A413-F9CC503A7DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF778040-E8BF-4A4A-A413-F9CC503A7DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5B0AB0-0038-4438-8A96-CB5E6742B8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5B0AB0-0038-4438-8A96-CB5E6742B8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5B0AB0-0038-4438-8A96-CB5E6742B8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5B0AB0-0038-4438-8A96-CB5E6742B8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EBE103-1270-41A5-9836-ADFB96052F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EBE103-1270-41A5-9836-ADFB96052F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EBE103-1270-41A5-9836-ADFB96052F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EBE103-1270-41A5-9836-ADFB96052F10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0EB9B76-67E9-45F3-8900-5C997DD9FB32}
+	EndGlobalSection
+EndGlobal
